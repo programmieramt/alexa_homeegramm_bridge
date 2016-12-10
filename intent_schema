@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "intent": "startHaus",
+            "slots": [
+        {
+          "name": "homeegramm",
+          "type": "HOMEEGRAMME"
+        }
+      ]
+},
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

@@ -16,10 +16,10 @@ Log into your amazon developer account and create a new custom skill:
 
 Fill all your informations.
 ![alt tag](https://raw.githubusercontent.com/programmieramt/alexa_homeegramm_bridge/master/pictures/skill1.png)
-You can find the intent schema inside the project code (link zum schema)
+You can find the intent schema inside the project code (https://github.com/programmieramt/alexa_homeegramm_bridge/blob/master/intent_schema)
 ![alt tag](https://raw.githubusercontent.com/programmieramt/alexa_homeegramm_bridge/master/pictures/interaction.png)
-Inside the Custom Slot Type you have to add every homee webhook name you want to trigger.
-Sample Utterances are the ways you want to trigger the skill.
+Inside the Custom Slot Type you have to add every homee webhook name you want to trigger.(https://github.com/programmieramt/alexa_homeegramm_bridge/blob/master/custom_slots)
+Sample Utterances are the ways you want to trigger the skill.(https://github.com/programmieramt/alexa_homeegramm_bridge/blob/master/utterance)
 Use HTTPS endpoint.
 The url under Europe you find after deploying the code with zappa.
 ![alt tag](https://raw.githubusercontent.com/programmieramt/alexa_homeegramm_bridge/master/pictures/configuration.png)
